@@ -1,11 +1,11 @@
 # Miyamoto!
 ## The New Super Mario Bros. U / New Super Luigi U Editor
-A level editor for NSMBU and NSLU by AboodXD and Gota7, based on Reggie! Next by RoadrunnerWMC, which is based on Reggie by Treeki, Tempus et al. Uses Python 3, PyQt5, SarcLib and libyaz0.
+An updated version of the level editor for NSMBU and NSLU by AboodXD and Gota7, based on Reggie! Next by RoadrunnerWMC, which is based on Reggie by Treeki, Tempus et al. Uses Python 3, PyQt5, SarcLib and libyaz0.
 
 ----------------------------------------------------------------
 
-Discord: https://discord.gg/AvFEHpp  
-GitHub: https://github.com/aboood40091/Miyamoto  
+Discord: https://go.nsmbu.net/discord
+GitHub: https://github.com/Zenith-Team/Miyamoto  
 
 ----------------------------------------------------------------
 
@@ -57,7 +57,7 @@ Download the source code from here:
 https://github.com/aboood40091/Miyamoto  
 
 Or using `git` with the following command:  
-`git clone --single-branch https://github.com/aboood40091/Miyamoto.git`  
+`git clone --single-branch https://github.com/Zenith-Team/Miyamoto.git`  
 
 #### STEP 2:
 Install the latest version of Python 3 (make sure you install pip and, on Windows, select the option to add Python to PATH):  
