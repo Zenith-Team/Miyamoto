@@ -54,7 +54,7 @@ Alternatively, you can build the .pyx files and then remove any instances of pyx
 ### How To Use
 #### STEP 1:
 Download the source code from here:  
-https://github.com/aboood40091/Miyamoto  
+https://github.com/Zenith-Team/Miyamoto  
 
 Or using `git` with the following command:  
 `git clone --single-branch https://github.com/Zenith-Team/Miyamoto.git`  
