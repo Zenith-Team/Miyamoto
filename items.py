@@ -2993,7 +2993,7 @@ class CommentItem(LevelEditorItem):
         else:
             painter.setBrush(QtGui.QBrush(globals.theme.color('comment_fill')))
             p = QtGui.QPen(globals.theme.color('comment_lines'))
-            p.setWidth(3 * globals.TileWidth / 24)
+            p.setWidth(int(3 * globals.TileWidth / 24))
             painter.setPen(p)
 
         painter.drawEllipse(self.Circle)
@@ -3001,7 +3001,7 @@ class CommentItem(LevelEditorItem):
         if not self.isSelected():
             painter.setOpacity(.5)
 
-        painter.drawPixmap(4 * globals.TileWidth / 24, 4 * globals.TileWidth / 24, GetIcon('comments', 24).pixmap(globals.TileWidth, globals.TileWidth))
+        painter.drawPixmap(int(4 * globals.TileWidth / 24, 4 * globals.TileWidth / 24), GetIcon('comments', 24).pixmap(globals.TileWidth, globals.TileWidth))
         painter.setOpacity(1)
 
         # Set the text edit visibility
